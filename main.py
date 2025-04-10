@@ -1,4 +1,8 @@
-def main ():
+def main():
+    filepath = "books/frankenstein.txt"
+    print(get_text (filepath))
+
+def main2 ():
     filepath = "books/frankenstein.txt"
     text = get_text (filepath)   
     print (f"--- Begin record of {filepath} ---")
